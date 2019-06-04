@@ -64,3 +64,115 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+.container {
+	width: 950px;
+	margin: auto;
+}
+
+header nav {
+	display: inline-block;
+	margin-top: 35px;
+}
+
+header nav a {
+	margin: 20px;
+}
+
+header img.logo {
+	margin-left: 140px;
+	margin-top: 35px;
+	
+}
+
+.content-row {
+	font-size: 72px;
+	font-family: 'Bangers';
+	padding: 20px 20px;
+	display: flex;
+	width: 50%;
+	margin-top: 30px;
+}
+
+.h1 {
+	padding: 0 10px;
+	margin: 10px;
+}
+
+button {
+	display: inline-block;
+	padding: 5px 40px;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	background: white;
+	border: 1px solid black;
+}
+	
+.header img {
+	margin-top: 15px;
+	display: inline-block;
+	}
+
+h2 {
+	padding: 0 10px;
+	margin-bottom: 10px;
+}
+
+p {
+	padding: 0 10px;
+	margin-bottom: 10px;	
+}
+
+.top-content {
+	display: inline-block;
+	border-top: 1px solid black;
+	padding: 20px 30px;
+	margin: 10px;
+}
+	.features {
+		display: inline-block;
+		width: 48%;
+	}
+
+	.about {
+		display: inline-block;
+		width: 48%;
+	}
+
+.middle-img {
+	display: block;
+	padding-top: 20px;
+}
+
+.bottom-content {
+	display: inline-block;
+	padding: 20px 10px;
+	margin: 10px;
+}
+	
+	.services {
+		display: inline-block;
+		width: 33%;
+	}
+
+	.product {
+		display: inline-block;
+		width: 33%;
+	}
+
+	.vision {
+		display: inline-block;
+		width: 33%;
+	}
+
+.contact {
+	border-top: 1px solid black;
+	padding-top: 40px;
+	line-height: 1.2;
+}
+
+footer p.copyright {
+	display: block;
+	text-align: center;
+	padding: 30px;
+}
